@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    background-color: rgba(255, 255, 255, 0.863);
+    text-align: end;
+    padding-right: 10px;
+    font-size: 30px;
+}
+.cleardel{
+    background-color: rgba(255, 255, 255, 0.863) ;
+}
+.cleardel button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.863) ;
+    font-size: 30px;
+    color: rgb(230, 114, 114);
+}
+.numpad button{
+    padding: 25px 35px;
+    border: none;
+    width: 50px;
+    height: 70px;
+    margin-left: -4px;
+    color: white;
+    background-color: rgba(117, 116, 116, 0.822); 
+    font-size: 20px;
+}
+.numpad .operator{
+        background-color: rgb(231, 169, 53);
+}
+.numpad .equals{
+    background-color: rgb(189, 189, 189);
+}
